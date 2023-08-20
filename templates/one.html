@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Hola, bienvenidos al sitio de fechas en donde dejarán de funcionar.</h1>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main3.css') }}">
+<div class="alert alert-success" role="alert">
+    Para el 4 de enero del 1975 d.C. las fechas de las computadoras que usan DECsystem-10 en un plano de 12 bits se desborarán.
+</div>
+<div class="alert alert-danger" role="alert">
+    Para las UTC 15:30:08 en el 4 de diciembre del 292 277 026 596 d.C. las fechas que utilizan Unix-64 bit fallarán.
+</div>
+{% endblock %}

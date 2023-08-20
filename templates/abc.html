@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Este es un sitio libre para sus publicidades.</h1>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main1.css') }}">
+<img src="../static/Promo Navideño_001.jpg" alt="Promoción Navideño Ilegítimo de Mariel Valerie" width="500">
+<p>Este es un ejemplo, para que puedan poner los suyos.</p>
+<hr class="my-4">
+<a href="/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Regresa a HOME</a>
+<a href="/list" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Regresa a List Access</a>
+{% endblock %}

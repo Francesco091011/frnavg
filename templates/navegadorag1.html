@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">
+    <h1 class="display-4">Bienvenido al Navegador de Árboles Genealógicos</h1>
+    <p class="lead">Este navegador fue creado con Python Flask (para el funcionamiento), HTML (para que te muestre esto)
+        y CSS (para el fondo de pantalla).</p>
+    <hr class="my-4">
+    <p>Si entraste por equivocación, regresa a HOME en en botón de abajo. Visualiza el acceso a las listas.</p>
+    <a class="btn btn-primary btn-lg" href="/" role="button">Regresa a HOME</a>
+    <a href="/listag1" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Vete a la lista</a>
+</div>
+{% endblock %}

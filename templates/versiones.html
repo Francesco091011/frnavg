@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main3.css') }}">
+<h1>Historial de Versiones del FrNavg</h1>
+<p>Las versiones son: </p>
+<h2><b>Version 1.0.1</b></h2>
+<p>Características:</p>
+<ul>
+    <li>Creación del Historial de Versiones</li>
+    <li>Cambio del About Us a Credits & About Us</li>
+</ul>
+<h2><b>Version 1.0.0</b></h2>
+<p>Características:</p>
+<ul>
+    <li>Creación del FrNavg</li>
+    <li>Guardado en <a href="https://web.archive.org/web/20230616145854/http://faehpremium.pythonanywhere.com/">Wayback Machine</a></li>
+</ul>
+<h2><b>Version 0.1</b></h2>
+<p>Características:</p>
+<ul>
+    <li>No es una versión real, pero es el primer proyecto finalizado de FrNavg</li>
+    <li>Puedes obtener <a href="/notexistent">aquí</a>.</li>
+</ul>
+{% endblock %}

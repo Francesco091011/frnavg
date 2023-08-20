@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">
+    <h1 class="display-4">Hola a todos!</h1>
+    <p class="lead">Registrate.</p>
+    <hr class="my-4">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Nosotros nunca compartiremos tus emails ni tus contraseñas.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <a class="btn btn-primary" href="/example/scherzo" role="button">Submit</a>
+    </form>
+</div>
+{% endblock %}

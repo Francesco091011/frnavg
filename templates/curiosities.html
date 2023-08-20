@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Este es un sitio libre para sus Curiosidades.</h1>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main3.css') }}">
+<img src="../static/Frutas.jpg" alt="Frutas curativas por casa enfermedad" width="500">
+<hr class="my-4">
+<a href="/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Regresa a HOME</a>
+<a href="/list" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Regresa a List Access</a>
+{% endblock %}

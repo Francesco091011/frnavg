@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1 class="display-4"> <strong>Hola a todos!</strong></h1>
+  <p class="lead">Este es un sitio web creado con Python, HTML, CSS y FAEH Premium PythonGraphs Services para hacerles sentir una gran aventura navegando en este sitio web con muchas cualidades.</p>
+  <hr class="my-4">
+  <p>Visitanos clicando el botón de abajo. Visualiza también la imagen y el acceso a listas.</p>
+  <a class="btn btn-primary btn-lg" href="https://sites.google.com/view/faeh-premium" role="button">Visit us</a>
+  <a href="/list" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Vete a List Access</a>
+  <a class="btn btn-primary btn-lg" href="{{ url_for('static', filename='KittyPatitas.jpg') }}" role="button">Kitty Image</a>
+</div>
+{% endblock %}
