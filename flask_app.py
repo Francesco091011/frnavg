@@ -130,5 +130,9 @@ def fandomedesprinprotag():
 def fandomedesprinmisc():
     return render_template("fandomedesprinmisc.html")
 
+@app.route("/fandom/el_despertar_del_principe/lugares")
+def fandomedesprinluga():
+    return render_template("fandomedesprinluga.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
