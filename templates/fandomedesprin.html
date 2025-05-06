@@ -1,0 +1,14 @@
+{% extends "layoutfandomedesprin.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4"> <strong>FANDOM - EL DESPERTAR DEL PRÍNCIPE</strong></h1>
+    <p class="lead">Sean bienvenidos al fandom de la obre literaria El Despertar del Príncipe, escrita por mi prima Mariel Valerie.</p>
+    <img src="../static/edesprin2.jpg" alt="Promoción Navideño Ilegítimo de Mariel Valerie" width="500">
+    <hr class="my-4">
+    <p>Si me encontraste así pues mira, me robaste mi computadora cholo</p>
+    <a class="btn btn-primary btn-lg" href="https://sites.google.com/view/faeh-premium" role="button">Visit us</a>
+    <a href="/list" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Vete a List Access</a>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('static', filename='KittyPatitas.jpg') }}" role="button">Kitty Image</a>
+  </div>
+{% endblock %}
