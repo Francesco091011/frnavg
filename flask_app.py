@@ -110,10 +110,10 @@ def versiones():
 def eastereggs():
     return render_template("eastereggs.html")
 
-#@app.route("/waylas")
-#def waylas():
-    #return render_template("waylas.html")
-
+@app.route("/waylas")
+def waylas():
+    return render_template("waylas.html")
+    
 @app.route("/premioseriani2024")
 def premioseriani2024():
     return render_template("premioseriani2024.html")
