@@ -106,5 +106,29 @@ def snakegame():
 def versiones():
     return render_template("versiones.html")
 
+@app.route("/eastereggs")
+def eastereggs():
+    return render_template("eastereggs.html")
+
+#@app.route("/waylas")
+#def waylas():
+    #return render_template("waylas.html")
+
+@app.route("/premioseriani2024")
+def premioseriani2024():
+    return render_template("premioseriani2024.html")
+
+@app.route("/fandom/el_despertar_del_principe")
+def fandomedesprin():
+    return render_template("fandomedesprin.html")
+
+@app.route("/fandom/el_despertar_del_principe/protagonistas")
+def fandomedesprinprotag():
+    return render_template("fandomedesprinprotag.html")
+
+@app.route("/fandom/el_despertar_del_principe/extras")
+def fandomedesprinmisc():
+    return render_template("fandomedesprinmisc.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
