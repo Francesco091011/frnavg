@@ -134,5 +134,10 @@ def fandomedesprinmisc():
 def fandomedesprinluga():
     return render_template("fandomedesprinluga.html")
 
+@app.route("/curiosidades/peru")
+def curiosidadesperu:
+    return render_template("curiosidadesperu.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
