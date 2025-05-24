@@ -135,7 +135,7 @@ def fandomedesprinluga():
     return render_template("fandomedesprinluga.html")
 
 @app.route("/curiosidades/peru")
-def curiosidadesperu:
+def curiosidadesperu():
     return render_template("curiosidadesperu.html")
 
 
